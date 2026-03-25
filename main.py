@@ -3,8 +3,8 @@ import requests
 from datetime import datetime
 import os
 
-my_mail = os.environ.get.MY_MAIL
-password = os.environ.get.MY_PASSWORD
+my_mail = os.environ.get("MY_MAIL")
+password = os.environ.get("MY_PASSWORD")
 
 MY_LAT = -32.92700204623853
 MY_LONG = -60.6647053653211
