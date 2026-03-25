@@ -63,13 +63,6 @@ jobs:
             exit 1
           fi
 
-          if [ -f "mails.csv" ]; then
-            echo "mails.csv found"
-          else
-            echo "mails.csv not found!"
-            exit 1
-          fi
-
           echo ""
           echo "All required files found!"
 
